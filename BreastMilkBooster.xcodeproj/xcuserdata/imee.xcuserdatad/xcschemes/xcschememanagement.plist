@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BreastMilkBooster.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9B90FF221C91270500FF890D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B90FF3E1C91270500FF890D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B90FF491C91270600FF890D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

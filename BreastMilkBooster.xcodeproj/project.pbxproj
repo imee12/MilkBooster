@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B90FF281C91270500FF890D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90FF271C91270500FF890D /* main.m */; };
+		9B90FF2B1C91270500FF890D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90FF2A1C91270500FF890D /* AppDelegate.m */; };
+		9B90FF2E1C91270500FF890D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90FF2D1C91270500FF890D /* ViewController.m */; };
+		9B90FF311C91270500FF890D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B90FF2F1C91270500FF890D /* Main.storyboard */; };
+		9B90FF341C91270500FF890D /* BreastMilkBooster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B90FF321C91270500FF890D /* BreastMilkBooster.xcdatamodeld */; };
+		9B90FF361C91270500FF890D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B90FF351C91270500FF890D /* Assets.xcassets */; };
+		9B90FF391C91270500FF890D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B90FF371C91270500FF890D /* LaunchScreen.storyboard */; };
+		9B90FF441C91270600FF890D /* BreastMilkBoosterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90FF431C91270600FF890D /* BreastMilkBoosterTests.m */; };
+		9B90FF4F1C91270600FF890D /* BreastMilkBoosterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90FF4E1C91270600FF890D /* BreastMilkBoosterUITests.m */; };
+		9B90FF5D1C91271D00FF890D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B90FF5C1C91271D00FF890D /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B90FF401C91270500FF890D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B90FF1B1C91270500FF890D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B90FF221C91270500FF890D;
+			remoteInfo = BreastMilkBooster;
+		};
+		9B90FF4B1C91270600FF890D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B90FF1B1C91270500FF890D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B90FF221C91270500FF890D;
+			remoteInfo = BreastMilkBooster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B90FF231C91270500FF890D /* BreastMilkBooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreastMilkBooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B90FF271C91270500FF890D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B90FF291C91270500FF890D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B90FF2A1C91270500FF890D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B90FF2C1C91270500FF890D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B90FF2D1C91270500FF890D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B90FF301C91270500FF890D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B90FF331C91270500FF890D /* BreastMilkBooster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BreastMilkBooster.xcdatamodel; sourceTree = "<group>"; };
+		9B90FF351C91270500FF890D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B90FF381C91270500FF890D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B90FF3A1C91270500FF890D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B90FF3F1C91270500FF890D /* BreastMilkBoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreastMilkBoosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B90FF431C91270600FF890D /* BreastMilkBoosterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreastMilkBoosterTests.m; sourceTree = "<group>"; };
+		9B90FF451C91270600FF890D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B90FF4A1C91270600FF890D /* BreastMilkBoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreastMilkBoosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B90FF4E1C91270600FF890D /* BreastMilkBoosterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreastMilkBoosterUITests.m; sourceTree = "<group>"; };
+		9B90FF501C91270600FF890D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B90FF5C1C91271D00FF890D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B90FF201C91270500FF890D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90FF5D1C91271D00FF890D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90FF3C1C91270500FF890D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90FF471C91270600FF890D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B90FF1A1C91270500FF890D = {
+			isa = PBXGroup;
+			children = (
+				9B90FF5C1C91271D00FF890D /* AudioToolbox.framework */,
+				9B90FF251C91270500FF890D /* BreastMilkBooster */,
+				9B90FF421C91270500FF890D /* BreastMilkBoosterTests */,
+				9B90FF4D1C91270600FF890D /* BreastMilkBoosterUITests */,
+				9B90FF241C91270500FF890D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B90FF241C91270500FF890D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B90FF231C91270500FF890D /* BreastMilkBooster.app */,
+				9B90FF3F1C91270500FF890D /* BreastMilkBoosterTests.xctest */,
+				9B90FF4A1C91270600FF890D /* BreastMilkBoosterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B90FF251C91270500FF890D /* BreastMilkBooster */ = {
+			isa = PBXGroup;
+			children = (
+				9B90FF291C91270500FF890D /* AppDelegate.h */,
+				9B90FF2A1C91270500FF890D /* AppDelegate.m */,
+				9B90FF2C1C91270500FF890D /* ViewController.h */,
+				9B90FF2D1C91270500FF890D /* ViewController.m */,
+				9B90FF2F1C91270500FF890D /* Main.storyboard */,
+				9B90FF351C91270500FF890D /* Assets.xcassets */,
+				9B90FF371C91270500FF890D /* LaunchScreen.storyboard */,
+				9B90FF3A1C91270500FF890D /* Info.plist */,
+				9B90FF321C91270500FF890D /* BreastMilkBooster.xcdatamodeld */,
+				9B90FF261C91270500FF890D /* Supporting Files */,
+			);
+			path = BreastMilkBooster;
+			sourceTree = "<group>";
+		};
+		9B90FF261C91270500FF890D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B90FF271C91270500FF890D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B90FF421C91270500FF890D /* BreastMilkBoosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B90FF431C91270600FF890D /* BreastMilkBoosterTests.m */,
+				9B90FF451C91270600FF890D /* Info.plist */,
+			);
+			path = BreastMilkBoosterTests;
+			sourceTree = "<group>";
+		};
+		9B90FF4D1C91270600FF890D /* BreastMilkBoosterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B90FF4E1C91270600FF890D /* BreastMilkBoosterUITests.m */,
+				9B90FF501C91270600FF890D /* Info.plist */,
+			);
+			path = BreastMilkBoosterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B90FF221C91270500FF890D /* BreastMilkBooster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B90FF531C91270600FF890D /* Build configuration list for PBXNativeTarget "BreastMilkBooster" */;
+			buildPhases = (
+				9B90FF1F1C91270500FF890D /* Sources */,
+				9B90FF201C91270500FF890D /* Frameworks */,
+				9B90FF211C91270500FF890D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreastMilkBooster;
+			productName = BreastMilkBooster;
+			productReference = 9B90FF231C91270500FF890D /* BreastMilkBooster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B90FF3E1C91270500FF890D /* BreastMilkBoosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B90FF561C91270600FF890D /* Build configuration list for PBXNativeTarget "BreastMilkBoosterTests" */;
+			buildPhases = (
+				9B90FF3B1C91270500FF890D /* Sources */,
+				9B90FF3C1C91270500FF890D /* Frameworks */,
+				9B90FF3D1C91270500FF890D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B90FF411C91270500FF890D /* PBXTargetDependency */,
+			);
+			name = BreastMilkBoosterTests;
+			productName = BreastMilkBoosterTests;
+			productReference = 9B90FF3F1C91270500FF890D /* BreastMilkBoosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B90FF491C91270600FF890D /* BreastMilkBoosterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B90FF591C91270600FF890D /* Build configuration list for PBXNativeTarget "BreastMilkBoosterUITests" */;
+			buildPhases = (
+				9B90FF461C91270600FF890D /* Sources */,
+				9B90FF471C91270600FF890D /* Frameworks */,
+				9B90FF481C91270600FF890D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B90FF4C1C91270600FF890D /* PBXTargetDependency */,
+			);
+			name = BreastMilkBoosterUITests;
+			productName = BreastMilkBoosterUITests;
+			productReference = 9B90FF4A1C91270600FF890D /* BreastMilkBoosterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B90FF1B1C91270500FF890D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Imee Cuison";
+				TargetAttributes = {
+					9B90FF221C91270500FF890D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9B90FF3E1C91270500FF890D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B90FF221C91270500FF890D;
+					};
+					9B90FF491C91270600FF890D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B90FF221C91270500FF890D;
+					};
+				};
+			};
+			buildConfigurationList = 9B90FF1E1C91270500FF890D /* Build configuration list for PBXProject "BreastMilkBooster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B90FF1A1C91270500FF890D;
+			productRefGroup = 9B90FF241C91270500FF890D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B90FF221C91270500FF890D /* BreastMilkBooster */,
+				9B90FF3E1C91270500FF890D /* BreastMilkBoosterTests */,
+				9B90FF491C91270600FF890D /* BreastMilkBoosterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B90FF211C91270500FF890D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90FF391C91270500FF890D /* LaunchScreen.storyboard in Resources */,
+				9B90FF361C91270500FF890D /* Assets.xcassets in Resources */,
+				9B90FF311C91270500FF890D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90FF3D1C91270500FF890D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90FF481C91270600FF890D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B90FF1F1C91270500FF890D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90FF2E1C91270500FF890D /* ViewController.m in Sources */,
+				9B90FF2B1C91270500FF890D /* AppDelegate.m in Sources */,
+				9B90FF341C91270500FF890D /* BreastMilkBooster.xcdatamodeld in Sources */,
+				9B90FF281C91270500FF890D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90FF3B1C91270500FF890D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90FF441C91270600FF890D /* BreastMilkBoosterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B90FF461C91270600FF890D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B90FF4F1C91270600FF890D /* BreastMilkBoosterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B90FF411C91270500FF890D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B90FF221C91270500FF890D /* BreastMilkBooster */;
+			targetProxy = 9B90FF401C91270500FF890D /* PBXContainerItemProxy */;
+		};
+		9B90FF4C1C91270600FF890D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B90FF221C91270500FF890D /* BreastMilkBooster */;
+			targetProxy = 9B90FF4B1C91270600FF890D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B90FF2F1C91270500FF890D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B90FF301C91270500FF890D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B90FF371C91270500FF890D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B90FF381C91270500FF890D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B90FF511C91270600FF890D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B90FF521C91270600FF890D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B90FF541C91270600FF890D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreastMilkBooster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.BreastMilkBooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B90FF551C91270600FF890D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BreastMilkBooster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.BreastMilkBooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B90FF571C91270600FF890D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreastMilkBoosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.BreastMilkBoosterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreastMilkBooster.app/BreastMilkBooster";
+			};
+			name = Debug;
+		};
+		9B90FF581C91270600FF890D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BreastMilkBoosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.BreastMilkBoosterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreastMilkBooster.app/BreastMilkBooster";
+			};
+			name = Release;
+		};
+		9B90FF5A1C91270600FF890D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreastMilkBoosterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.BreastMilkBoosterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreastMilkBooster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B90FF5B1C91270600FF890D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BreastMilkBoosterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.BreastMilkBoosterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BreastMilkBooster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B90FF1E1C91270500FF890D /* Build configuration list for PBXProject "BreastMilkBooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90FF511C91270600FF890D /* Debug */,
+				9B90FF521C91270600FF890D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B90FF531C91270600FF890D /* Build configuration list for PBXNativeTarget "BreastMilkBooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90FF541C91270600FF890D /* Debug */,
+				9B90FF551C91270600FF890D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B90FF561C91270600FF890D /* Build configuration list for PBXNativeTarget "BreastMilkBoosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90FF571C91270600FF890D /* Debug */,
+				9B90FF581C91270600FF890D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B90FF591C91270600FF890D /* Build configuration list for PBXNativeTarget "BreastMilkBoosterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B90FF5A1C91270600FF890D /* Debug */,
+				9B90FF5B1C91270600FF890D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B90FF321C91270500FF890D /* BreastMilkBooster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B90FF331C91270500FF890D /* BreastMilkBooster.xcdatamodel */,
+			);
+			currentVersion = 9B90FF331C91270500FF890D /* BreastMilkBooster.xcdatamodel */;
+			path = BreastMilkBooster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B90FF1B1C91270500FF890D /* Project object */;
+}
